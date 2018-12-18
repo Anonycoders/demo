@@ -1,0 +1,6 @@
+kind: ExternalService
+name: textminer
+spec:
+  image: text_miner:${IMAGE_VERSION}
+  image_pull_policy: Always
+  replicas: 1
