@@ -14,4 +14,4 @@ cross-platform demo for text-mining.ir APIs
 ```fandogh image publish --version IMAGE_VERSION```
 
 ### Deploy Service
-```fandogh service apply -f service_manifest.yml```
+```fandogh service apply -f service_manifest.yml -p IMAGE_VERSION=YOUR_IMAGE_VERSION```
